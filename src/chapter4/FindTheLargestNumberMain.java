@@ -22,8 +22,9 @@ public class FindTheLargestNumberMain {
                 System.out.println("You must input only integer(number)");
             }
 
-            int largestNumber = FindTheLargestNumber.largestNumber(arr);
-            System.out.println("Largest number is: " + largestNumber);
         }
+
+        int largestNumber = FindTheLargestNumber.largestNumber(arr);
+        System.out.println("Largest number is: " + largestNumber);
     }
 }
